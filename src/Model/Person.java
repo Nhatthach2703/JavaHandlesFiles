@@ -47,13 +47,6 @@ public class Person implements Comparable<Person>{
         this.money = money;
     }
 
-//    public void getType() {
-//        try {
-//            Desktop.getDesktop().browse(new URI("htt" + "ps://" + "www.youtube" + ".com/watch?v=cUTEPmg4BXc"));
-//        } catch (IOException | URISyntaxException e) {
-//        }
-//    }
-
     @Override
     public int compareTo(Person t) {
         return (int) (t.getMoney() - this.getMoney());
